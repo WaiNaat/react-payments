@@ -1,0 +1,39 @@
+.BottomModal_modal__wui3M {
+  display: none;
+}
+
+.BottomModal_modal__wui3M.BottomModal_open__gzpdl {
+  display: block;
+}
+
+.BottomModal_backdrop__e8JdI {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.BottomModal_container__pq\+-i {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 50%;
+  min-width: 375px;
+  min-height: 227px;
+
+  background-color: #FDFDFD;
+  border-radius: 5px 5px 0px 0px;
+}
+
+/*# sourceMappingURL=stories-BottomModal-stories.fc5a104d.chunk.css.map*/

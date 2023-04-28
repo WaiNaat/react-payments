@@ -1,0 +1,68 @@
+:root {
+  --card-color: #333333;
+  --add-card-color: #e5e5e5;
+  --card-ic-chip-color: #cbba64;
+  --input-background: #ecebf1;
+  --input-text: #525252;
+  --security-code-button-border: #bababa;
+  --security-code-button-text: #969696;
+}
+
+.Input_input__-vsJn {
+  background-color: var(--input-background);
+  height: 45px;
+  border-radius: 7px;
+
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+
+  margin-top: 1%;
+  padding-left: 5px;
+}
+
+.Input_input__-vsJn::-webkit-input-placeholder {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.Input_input__-vsJn::placeholder {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.inputBoxOwner_inputBox__MRj7e {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.inputBoxOwner_inputBox__MRj7e p:last-child {
+  margin-left: 2%;
+  color: red;
+  font-weight: bold;
+  visibility: hidden;
+  grid-column: 1/3;
+}
+
+.inputBoxOwner_inputBox__MRj7e p:nth-child(2) {
+  text-align: right;
+  font-weight: bold;
+}
+
+.inputBoxOwner_inputBox__MRj7e p:last-child.inputBoxOwner_visible__csVOt {
+  visibility: visible;
+}
+
+.inputBoxOwner_input__kUVKZ {
+  grid-column: 1/3;
+  width: 100%;
+
+  text-align: left;
+  letter-spacing: normal;
+
+  padding-left: 3%;
+}
+
+
+/*# sourceMappingURL=stories-InputBoxOwner-stories.70b734b7.chunk.css.map*/
