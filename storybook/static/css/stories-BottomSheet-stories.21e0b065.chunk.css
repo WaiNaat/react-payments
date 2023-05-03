@@ -1,0 +1,39 @@
+.BottomSheet_modal__O-Bat {
+  display: none;
+}
+
+.BottomSheet_modal__O-Bat.BottomSheet_open__d5Dts {
+  display: block;
+}
+
+.BottomSheet_backdrop__doAgo {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.BottomSheet_container__M\+Tpo {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 50%;
+  min-width: 375px;
+  min-height: 227px;
+
+  background-color: #FDFDFD;
+  border-radius: 5px 5px 0px 0px;
+}
+
+/*# sourceMappingURL=stories-BottomSheet-stories.21e0b065.chunk.css.map*/
