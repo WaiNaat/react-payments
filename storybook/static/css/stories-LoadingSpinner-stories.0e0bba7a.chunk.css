@@ -1,0 +1,59 @@
+.LoadingSpinner_spinner__VqZjX {
+  content: '';
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: 10px solid rgba(0, 0, 0, 0.05);
+  border-top-color: rgb(255, 105, 180);
+  border-radius: 50%;
+
+  -webkit-animation: LoadingSpinner_spin__1u\+4v 2.3s cubic-bezier(0.2, 0.33, 0.8, 0.33) infinite;
+
+          animation: LoadingSpinner_spin__1u\+4v 2.3s cubic-bezier(0.2, 0.33, 0.8, 0.33) infinite;
+}
+
+@-webkit-keyframes LoadingSpinner_spin__1u\+4v {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  33% {
+    -webkit-transform: rotate(120deg);
+            transform: rotate(120deg);
+  }
+  67% {
+    -webkit-transform: rotate(240deg);
+            transform: rotate(240deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes LoadingSpinner_spin__1u\+4v {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  33% {
+    -webkit-transform: rotate(120deg);
+            transform: rotate(120deg);
+  }
+  67% {
+    -webkit-transform: rotate(240deg);
+            transform: rotate(240deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
+/*# sourceMappingURL=stories-LoadingSpinner-stories.0e0bba7a.chunk.css.map*/

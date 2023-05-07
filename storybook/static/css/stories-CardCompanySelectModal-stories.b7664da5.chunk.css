@@ -85,5 +85,19 @@
 
   color: var(--input-text);
 }
+.CardCompanySelectModal_contents__ISdg- {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
-/*# sourceMappingURL=stories-CardCompanyButton-stories.74208400.chunk.css.map*/
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.CardCompanySelectModal_contents__ISdg- > * {
+  margin: 13px 10px;
+}
+
+/*# sourceMappingURL=stories-CardCompanySelectModal-stories.b7664da5.chunk.css.map*/
